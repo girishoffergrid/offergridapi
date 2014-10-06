@@ -1,0 +1,2 @@
+[Sep 25 2014 17:20:22.000000 - INFO] effectiveUser=931-981-6934 service=CampaignService method=get operators={} responseTime=550 requestId=000503e267c675a80a4292040e0069a3 operations=1 units= server=adwords.google.com isFault=false faultMessage=null
+[Sep 25 2014 17:21:22.000000 - INFO] effectiveUser=931-981-6934 service=CampaignService method=get operators={} responseTime=426 requestId=000503e26b545f290a42bf81f7001a18 operations=1 units= server=adwords.google.com isFault=false faultMessage=null

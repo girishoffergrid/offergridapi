@@ -1,0 +1,190 @@
+[Sep 25 2014 17:20:22.000000 - INFO] POST /api/adwords/cm/v201406/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.4, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.iwBKsDQWXyqJ3m1k6kKP8qKddY1RBLEF9rJZ_nVKAySuV8Y3QJlTi64w
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201406">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>931-981-6934</ns1:clientCustomerId>
+      <ns1:developerToken>olS-2um7BKYbyFuTKSWMFw</ns1:developerToken>
+      <ns1:userAgent>OfferGrid Networks (AwApi-PHP/5.5.1, Common-PHP/5.5.1, PHP/5.5.9-1ubuntu4.4)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:ordering>
+          <ns1:field>Name</ns1:field>
+          <ns1:sortOrder>ASCENDING</ns1:sortOrder>
+        </ns1:ordering>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Thu, 25 Sep 2014 11:50:22 GMT
+Expires: Thu, 25 Sep 2014 11:50:22 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 426
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <requestId>000503e267c675a80a4292040e0069a3</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>550</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <rval>
+        <totalNumEntries>6</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>202913605</id>
+          <name>Campaign #1</name>
+        </entries>
+        <entries>
+          <id>203905885</id>
+          <name>giri</name>
+        </entries>
+        <entries>
+          <id>202932685</id>
+          <name>girish #541bf76d887aa</name>
+        </entries>
+        <entries>
+          <id>202940005</id>
+          <name>girish-kumar</name>
+        </entries>
+        <entries>
+          <id>202931245</id>
+          <name>Interplanetary Cruise #541bf3a4737b5</name>
+        </entries>
+        <entries>
+          <id>203349325</id>
+          <name>test-campain-1</name>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Sep 25 2014 17:21:22.000000 - INFO] POST /api/adwords/cm/v201406/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.4, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.iwB7yrSTAHjtvC99UpDoQX8IXJYsKVEK9ozNNuBmTQSzPxqKgqqsTYZQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201406">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>931-981-6934</ns1:clientCustomerId>
+      <ns1:developerToken>olS-2um7BKYbyFuTKSWMFw</ns1:developerToken>
+      <ns1:userAgent>OfferGrid Networks (AwApi-PHP/5.5.1, Common-PHP/5.5.1, PHP/5.5.9-1ubuntu4.4)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:ordering>
+          <ns1:field>Name</ns1:field>
+          <ns1:sortOrder>ASCENDING</ns1:sortOrder>
+        </ns1:ordering>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Thu, 25 Sep 2014 11:51:22 GMT
+Expires: Thu, 25 Sep 2014 11:51:22 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 429
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <requestId>000503e26b545f290a42bf81f7001a18</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>426</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <rval>
+        <totalNumEntries>6</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>202913605</id>
+          <name>Campaign #1</name>
+        </entries>
+        <entries>
+          <id>203905885</id>
+          <name>giri</name>
+        </entries>
+        <entries>
+          <id>202932685</id>
+          <name>girish #541bf76d887aa</name>
+        </entries>
+        <entries>
+          <id>202940005</id>
+          <name>girish-kumar</name>
+        </entries>
+        <entries>
+          <id>202931245</id>
+          <name>Interplanetary Cruise #541bf3a4737b5</name>
+        </entries>
+        <entries>
+          <id>203349325</id>
+          <name>test-campain-1</name>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
